@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+/*font-family: 'Lato', sans-serif;*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+
+:root{
+	--dark-color:#191919;
+	--white-color:#FFFFFF;
+	--purple-color:rgb(117,41,149);
+	--blue-color:#00B2B1;
+	--gray-color:#828282;
+	--ligh-color:#F3F3F3;
+}
+
+h1, h2, h3 {
+    font-family: 'Lato', sans-serif;
+    color: var(--purple-color);
+}
+
+p {
+    color: var(--dark-color);
+    text-align: justify;
+}
+
+/* Bootstrap */
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* Diseño de Index */
+.header-logo img {
+    max-width: 270px;
+}
+
+.azul {
+    background-color: var(--blue-color);
+    border-color: var(--blue-color);
+}
+
+.azul:hover {
+    color: var(--blue-color);
+    background-color: white;
+    border-color: var(--blue-color);
+}
+
+.morado {
+    color: var(--purple-color);
+    border-color: var(--purple-color);
+}
+
+.morado:hover {
+    color: #fff;
+    background-color: var(--purple-color);
+    border-color: var(--purple-color);
+}
+
+.buscar-nav {
+    color: var(--white-color);
+    border-color: var(--white-color);
+}
+
+.buscar-nav:hover {
+    color: #fff;
+    background-color: var(--blue-color);
+    border-color: var(--blue-color);
+}
