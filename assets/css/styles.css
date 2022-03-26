@@ -73,3 +73,37 @@ p {
     background-color: var(--blue-color);
     border-color: var(--blue-color);
 }
+
+.agenda-cita {
+    background-image: url(../img/fondo.jpg);
+    padding: 3rem;
+}
+
+.agenda-cita h1 {
+    color: var(--dark-color);
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.agenda-cita h3 {
+    color: var(--dark-color);
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.agenda-promo {
+    background-color: var(--purple-color);
+    padding: 3rem;
+    text-align: center;
+}
+
+.agenda-promo h1 {
+    color: var(--white-color);
+    font-size: 2rem;
+    font-weight: 600;
+    text-shadow: 3px 3px 3px var(--dark-color);
+}
+
+.title-section {
+
+}
