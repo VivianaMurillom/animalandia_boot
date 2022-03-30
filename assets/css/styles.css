@@ -38,7 +38,14 @@ p {
 
 /* Diseño de Index */
 .header-logo img {
+    margin-bottom: 1rem;
     max-width: 270px;
+}
+
+.header-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1rem;
 }
 
 .azul {
@@ -105,5 +112,63 @@ p {
 }
 
 .title-section {
+    margin: 1rem .5rem;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    text-shadow: 1px 1px 2px var(--dark-color);
+}
 
+.card {
+    color: var(--purple-color);
+    margin: 1rem;
+    text-align: center;
+}
+
+.card-title {
+    font-weight: bolder;
+}
+
+.container-footer {
+    background-image: url(/assets/img/fondo.jpg);
+}
+
+.background-footer {
+    background-color: rgba(117, 41, 149, .4);
+}
+
+.card-footer{
+    border: none;
+}
+
+.footer-title {
+    color: var(--white-color);
+}
+
+.footer-text {
+    color: var(--white-color);
+    text-align: center;
+}
+
+.card-footer img {
+    max-width: 100px;
+}
+
+/* Diseño de Equipo */
+
+.banner img {
+    max-width: 1440px;
+    width: 100%;
+}
+
+.card-team img {
+    max-width: 150px;
+}
+
+.title-specialty {
+    color: var(--dark-color);
+}
+
+.title-specialty, .title-name {
+    text-shadow: 1px 1px 2px var(--gray-color);
 }
