@@ -179,3 +179,18 @@ p {
     background-color: rgba(117, 41, 149, .5);
     display: inline-block;
 }
+
+.card-servicio {
+    border: none;
+}
+
+.card-servicio img {
+    border: 3px solid var(--blue-color);
+    border-radius: 10px 40px;
+}
+
+.card-servicio p {
+    background: linear-gradient(180deg, rgba(117, 41, 149, 0.37) 0%, rgba(0, 178, 209, 0.35) 100%);
+}
+
+/* Diseño de Contacto*/
