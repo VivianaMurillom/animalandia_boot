@@ -135,6 +135,7 @@ p {
 
 .background-footer {
     background-color: rgba(117, 41, 149, .4);
+    width: 100%;
 }
 
 .card-footer{
@@ -151,6 +152,8 @@ p {
 }
 
 .card-footer img {
+    display: flex;
+    justify-content: center;
     max-width: 100px;
 }
 
@@ -159,6 +162,10 @@ p {
 .banner img {
     max-width: 1440px;
     width: 100%;
+}
+
+.card-team{
+    border: none;
 }
 
 .card-team img {
@@ -194,3 +201,123 @@ p {
 }
 
 /* Diseño de Contacto*/
+.contacto1, .contacto2{
+    flex-direction: column;
+}
+
+.contacto-form{
+    background-color: #00B2B1;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    flex-direction: column;
+    margin: 2rem .1rem;
+    width: 100%;
+    padding: 2rem;
+}
+
+.parte1, .parte2{
+    flex-direction: column;
+    margin: .5rem;
+    width: 100%;
+}
+
+.info-contacto{
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.mb-3 label{
+    color: #F3F3F3;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.the-button{
+    display: flex;
+    justify-content: center;
+}
+
+.enviar{
+    background-color: var(--purple-color);
+    border-radius: 30px;
+    align-items: center;
+    width: 80px;
+}
+
+.direccion{
+    display: flex;
+}
+
+.direccion i{
+    margin-right: 1.5rem;
+}
+
+.mapa-contacto{
+    justify-content: center;
+    max-width: 300px;
+    padding: .5rem;
+}
+
+.mapa-contacto iframe{
+    max-width: 250px;
+}
+
+/*Resolución de tablet*/
+@media screen and (min-width: 768px) {
+    /* Diseño de Contacto*/
+
+    .contacto-form{
+        flex-direction: row;
+    }
+
+    .parte2{
+        justify-content: center;
+    }
+
+    .contacto-imagen{
+        justify-content: center;
+    }
+
+    .contacto2{
+        align-content: center;
+        flex-direction: row;
+    }
+
+    .mapa-contacto{
+        margin: 1rem;
+        max-width: 550px;
+    }
+
+    .mapa-contacto iframe{
+        max-width: 550px;
+    }
+}
+
+/*Resolución de medias (equipos de escritorio)*/
+@media screen and (min-width: 1024px) {
+
+    /* Diseño de Contacto*/
+    .contacto1{
+        flex-direction: row;
+    }
+
+    .contacto-imagen img{
+        margin: 1rem;
+        max-width: 300px;
+    }
+
+    .contacto-form{
+        margin: 2rem;
+        max-width: 550px;
+        padding: .2rem 3rem;
+    }
+
+    .parte1, .parte2{
+        flex-direction: column;
+        justify-content: center;
+        margin: .5rem;
+        width: 100%;
+    }
+}

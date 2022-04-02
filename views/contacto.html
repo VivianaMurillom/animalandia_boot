@@ -62,31 +62,60 @@
 
         <h2 class="title-section">Contáctanos</h2>
 
-        <div class="container-fluid overflow-hidden contacto1">
-            <div class="contacto-form">
-                <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Nombre</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        <div class="container-fluid overflow-hidden d-flex contacto1">
+            <div class="d-flex contacto-form">
+                <div class="d-flex parte1">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Nombres</label>
+                        <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Su nombre aquí">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Tipo de mascota</label>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Seleccione aquí</option>
+                            <option value="1">Gato</option>
+                            <option value="2">Perro</option>
+                            <option value="3">Otro</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Correo electrónico</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Tipo de consulta</label>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Seleccione aquí</option>
+                            <option value="1">General</option>
+                            <option value="2">Prioritario</option>
+                            <option value="3">Urgencias</option>
+                        </select>
+                    </div>
                 </div>
-                <div class="mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <div class="d-flex parte2">
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                <div class="the-button">
+                    <button type="submit" class="btn btn-primary enviar">Enviar</button>
+                </div>
                 </div>
             </div>
 
-            <div class="contacto-imagen">
+            <div class="d-flex contacto-imagen">
                 <img src="../assets/img/vector-huella.svg" alt="Imagen decorativa de huella">
             </div>
         </div>
 
         <h2 class="title-section">Visítanos</h2>
 
-        <div class="container-fluid overflow-hidden contacto2">
+        <div class="container-fluid overflow-hidden d-flex flex-wrap justify-content-around contacto2">
             <div class="contacto-imagen">
                 <img src="../assets/img/vector-huella.svg" alt="Imagen decorativa de huella">
             </div>
 
-            <div class="info-contacto">
+            <div class="d-flex info-contacto">
                 <div class="direccion">
                     <i class="bi bi-geo-alt-fill"></i>
                     <p>Cra. 19 #20 - 21sur, Bogotá</p>
@@ -101,7 +130,7 @@
                 </div>
             </div>
 
-            <div class="mapa-contacto">
+            <div class="d-flex mapa-contacto">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15908.227640828107!2d-74.103688!3d4.583806!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcb94d4852598b934!2sKuepa%20-%20Restrepo!5e0!3m2!1ses!2sco!4v1648765148931!5m2!1ses!2sco" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
