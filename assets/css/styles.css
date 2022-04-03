@@ -130,7 +130,7 @@ p {
 }
 
 .container-footer {
-    background-image: url(/assets/img/fondo.jpg);
+    background-image: url(../img/fondo.jpg);
 }
 
 .background-footer {
