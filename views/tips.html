@@ -6,21 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <title>Home</title>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <title>Tips</title>
 </head>
 <body>
     <div class="container-fluid overflow-hidden">
+
         <header>
             <div class="row align-items-center">
                 <div class="header-logo col-12 col-md-4 col-xl-3">
-                    <img src="assets/img/logo.jpg" alt="Logo de Animalandia">
+                    <img src="../assets/img/logo.jpg" alt="Logo de Animalandia">
                 </div>
                 <div class="col-12 col-md-4 col-xl-6"></div>
                 <div class="header-buttons col-12 col-md-4 col-xl-3">
                     <a href="/views/login/login.html" class="btn btn-primary azul"><i class="bi bi-box-arrow-in-right"></i> Ingresar</a>
                     <button type="button" class="btn btn-outline-primary morado"><i class="bi bi-person-plus-fill"></i> Registrarse</button>
-                    
                 </div>
             </div>
         </header>
@@ -34,22 +34,22 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" aria-current="page" href="../index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="views/equipo.html">Equipo</a>
+                    <a class="nav-link" href="equipo.html">Equipo</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="views/servicios.html">Servicios</a>
+                    <a class="nav-link" href="servicios.html">Servicios</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Agenda tu cita</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="views/contacto.html">Contacto</a>
+                    <a class="nav-link" href="contacto.html">Contacto</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="views/tips.html">Tips</a>
+                    <a class="nav-link active" href="tips.html">Tips</a>
                 </li>
                 </ul>
                 <form class="d-flex">
@@ -60,54 +60,36 @@
             </div>
         </nav>
 
-        <section id="agenda" class="mt-1">
-            <div class="row">
-                <div class="agenda-cita col-12 col-md-6 col-xl-8">
-                    <h1 class="mb-3">AGENDA TU CITA AHORA PARA RECLAMAR TU PRIMER BAÑO GRATIS</h1>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum, dolorem porro maxime reiciendis alias illum sequi. Neque, eligendi animi obcaecati error dicta cumque, quisquam in sunt quis ratione minima blanditiis!</p>
-                    <h3>RECUERDA QUE NUESTRO EQUIPO MÉDICO TE CONFIRMARÁ LA CITA</h3>
-                    <button type="button" class="btn btn-outline-primary morado"><i class="bi bi-calendar-check"></i>     Agendar</button>
+        <h2 class="title-section">Tips</h2>
+
+        <div class="background-tips">
+            <div class="overflow-hidden d-flex container-tips">
+                <div class="d-flex gatos">
+                    <div class="imagen-gatos">
+                        <img src="../assets/img/andriyko-podilnyk-RCfi7vgJjUY-unsplash.jpg" alt="Imagen de gatito">
+                    </div>
+                    <div class="texto-gatos">
+                        <h1>Tenencia responsable</h1>
+                        <p>Los estudios demuestran que las personas con animales de compañía suelen estar más sanas y felices que aquellas que no los tienen, además, sabemos lo maravilloso que es volver a casa al final de un duro día y escuchar el ronroneo de satisfacción de una adorable bola de pelo; es por ello que no tenemos duda de que los gatos son grandes mascotas, pero también una gran responsabilidad y un compromiso de por vida.</p>
+                    </div>
                 </div>
 
-                <div class="agenda-promo d-flex flex-column justify-content-center col-12 col-md-6 col-xl-4">
-                    <h1>GRATIS PRIMER BAÑO</h1>
-                    <img src="assets/img/golden.jpg" alt="Imagen representativa de perrito en baño" class="rounded-circle border border-white border-5">
+                <div class="d-flex perros">
+                    <div class="imagen-perros">
+                        <img src="../assets/img/daniel-maas-RR-FwGB6PEU-unsplash.jpg" alt="Imagen de perrito">
+                    </div>
+                    <div class="texto-perros">
+                        <h1>¿Sabías qué?</h1>
+                        <p>El contacto con un perro, con el cual se ha establecido un vínculo afectivo, hace que liberemos oxitocina, la hormona relacionada con el placer. También se reducen los niveles de cortisol en la sangre, indicador fisiológico del estrés y aumentan el nivel de endorfinas, un péptido que funciona como un neurotransmisor y que son las responsables de la sensación de bienestar. Más allá de estos visibles beneficios, también el ritmo cardíaco se ve reducido y se fomenta la reducción de la presión arterial.</p>
+                    </div>
                 </div>
             </div>
-        </section>
-
-        <h2 class="title-section">Servicios</h2>
-
-        <div class="container-fluid overflow-hidden d-flex justify-content-center align-items-center flex-wrap container-cards">
-            <div class="card" style="width: 18rem;">
-                <img src="assets/img/paciente.png" class="card-img-top" alt="Imagen representativa de servicio">
-                <div class="card-body">
-                  <h5 class="card-title">Pacientes</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-            </div>  
-
-            <div class="card" style="width: 18rem;">
-                <img src="assets/img/paciente.png" class="card-img-top" alt="Imagen representativa de servicio">
-                <div class="card-body">
-                  <h5 class="card-title">Veterinario</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-            </div>  
-
-            <div class="card" style="width: 18rem;">
-                <img src="assets/img/vacunacion.png" class="card-img-top" alt="Imagen representativa de servicio">
-                <div class="card-body">
-                  <h5 class="card-title">Vacunación</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-            </div>  
         </div>
 
         <div class="container-fluid overflow-hidden d-flex justify-content-center align-items-center flex-wrap container-footer">
             <div class="d-flex flex-wrap justify-content-center align-items-center background-footer">
                 <div class="card d-flex align-items-center card-footer" style="width: 18rem;">
-                    <img src="assets/img/bx-building 1.svg" class="card-img-top rounded-circle" alt="Imagen representativa de contacto">
+                    <img src="../assets/img/bx-building 1.svg" class="card-img-top rounded-circle" alt="Imagen representativa de contacto">
                     <div class="card-body">
                     <h5 class="card-title footer-title">Sedes</h5>
                     <p class="card-text footer-text">Sede Kenedy</p>
@@ -118,7 +100,7 @@
                 </div>  
 
                 <div class="card d-flex align-items-center card-footer" style="width: 18rem;">
-                    <img src="assets/img/bx-building 1.svg" class="card-img-top rounded-circle" alt="Imagen representativa de contacto">
+                    <img src="../assets/img/bx-building 1.svg" class="card-img-top rounded-circle" alt="Imagen representativa de contacto">
                     <div class="card-body">
                     <h5 class="card-title footer-title">Sedes</h5>
                     <p class="card-text footer-text">Sede Kenedy</p>
@@ -129,7 +111,7 @@
                 </div>  
 
                 <div class="card d-flex align-items-center card-footer" style="width: 18rem;">
-                    <img src="assets/img/bx-building 1.svg" class="card-img-top rounded-circle" alt="Imagen representativa de contacto">
+                    <img src="../assets/img/bx-building 1.svg" class="card-img-top rounded-circle" alt="Imagen representativa de contacto">
                     <div class="card-body">
                     <h5 class="card-title footer-title">Sedes</h5>
                     <p class="card-text footer-text">Sede Kenedy</p>

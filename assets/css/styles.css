@@ -264,6 +264,187 @@ p {
     max-width: 250px;
 }
 
+/* Diseño de Tips*/
+
+.background-tips{
+    background-image: url(../img/fondo.jpg);
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.container-tips{
+    flex-direction: column;
+    margin: .5rem;
+}
+
+.gatos, .perros{
+    flex-direction: column;
+}
+
+.imagen-gatos img, .imagen-perros img{
+    border: 5px solid #00B2D1;
+    border-radius: 50px 70px;
+    max-width: 800px;
+    width: 100%;
+}
+
+.texto-gatos, .texto-perros{
+    background: rgba(255, 255, 255, 0.84);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    border-radius: 0px 40px 40px 0px;
+    padding: 1rem;
+}
+
+.texto-gatos h1, .texto-perros h1{
+    color: #00B2D1;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+/* Diseño de Login*/
+.background-login{
+    margin: 1rem;
+}
+
+.volver{
+    background-color: var(--blue-color);
+    margin: 1rem;
+}
+
+.background-login img{
+    width: 100%;
+}
+
+.back-login{
+    display: flex;
+    justify-content: center;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+}
+
+.image i{
+    color: var(--purple-color);
+    font-size: 60px;
+}
+
+.mb-3 label {
+    color: #000000;
+}
+
+.buttons-form-login{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.buttons-form-login button{
+    margin-top: 1rem;
+}
+
+.recordar{
+    display: flex;
+    justify-content: center;
+}
+
+.recordar p{
+    color: #00B2B1;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/* Diseño de dashboard */
+
+.d-logo{
+    margin: 1rem;
+}
+
+.d-logo img{
+    width: 100%;
+}
+
+.d-sesion{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.d-sesion img{
+    border: 3px solid var(--purple-color);
+    max-width: 280px;
+}
+
+.d-sesion p, .d-sesion i{
+    color: var(--purple-color);
+    font-size: 20px;
+}
+
+#d-dashboard{
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.d-contenido{
+    margin: 1rem;
+    padding: 1rem; 
+}
+
+/* Diseño de productos*/
+
+.contenido-principal{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.contenido-principal img{
+    max-width: 100px;
+}
+
+.contenido-principal h1{
+    color: var(--dark-color);
+    margin: 1rem;
+    text-align: center;
+}
+
+.agregar {
+    background-color: var(--purple-color);
+}
+
+.buscar{
+    background-color: var(--purple-color);
+}
+
+.contenido-tabla{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+td a{
+    text-decoration: none;
+}
+
+.eliminar{
+    background-color: #00B2D1;
+}
+
+/* Diseño de productosAdd*/
+
+.productoAdd-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.guardar{
+    background-color: var(--purple-color);
+}
+
 /*Resolución de tablet*/
 @media screen and (min-width: 768px) {
     /* Diseño de Contacto*/
@@ -293,6 +474,49 @@ p {
     .mapa-contacto iframe{
         max-width: 550px;
     }
+
+    /* Diseño de Tips*/
+
+    .container-tips{
+        border: 1px solid rgba(0, 0, 0, 0.6);
+        border-radius: 30px;
+        padding: 1rem;
+    }
+
+    /* Diseño de Login*/
+
+    #login{
+        border: 3px solid var(--dark-color);
+        border-radius: 10px;
+        min-width: 500px;
+        padding: 1rem;
+    }
+
+    /* Diseño de dashboard */
+
+    .header-dashboard{
+        display: flex;
+    }
+
+    .d-logo{
+        align-items: center;
+        display: flex;
+        flex-basis: 70%;
+    }
+
+    .d-logo img{
+        max-width: 400px;
+        max-height: 130px;
+    }
+
+    .d-sesion{
+        flex-basis: 25%;
+    }
+
+    .d-sesion img{
+        max-width: 100px;
+    }
+
 }
 
 /*Resolución de medias (equipos de escritorio)*/
@@ -319,5 +543,76 @@ p {
         justify-content: center;
         margin: .5rem;
         width: 100%;
+    }
+
+    /* Diseño de Tips*/
+
+    .background-tips{
+        border: 1px solid rgba(0, 0, 0, 0.6);
+        border-radius: 30px;
+        margin: 2rem 2rem;
+        padding: 2rem 2rem;
+    }
+
+    .gatos{
+        flex-direction: row;
+    }
+
+    .perros{
+        flex-direction: row-reverse;
+    }
+
+    .imagen-gatos img, .imagen-perros img{
+        min-width: 600px;
+    }
+
+    .texto-perros{
+        border-radius: 40px 0px 0px 40px;
+    }
+
+    .texto-gatos, .texto-perros{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .texto-gatos h1, .texto-perros h1{
+        margin-bottom: 2rem;
+        backdrop-filter: blur(4px);
+        
+    }
+
+    /* Diseño de Login*/
+
+    .background-login img{
+        max-width: 700px;
+    }
+
+    #login{
+        min-width: 700px;
+        padding: 3rem;
+    }
+
+    .image i{
+        font-size: 80px;
+    }
+
+    /* Diseño de Login*/
+
+    .d-logo img{
+        max-width: 500px;
+        max-height: 170px;
+    }
+
+    .d-sesion img{
+        max-width: 150px;
+    }
+
+    /* Diseño de productos */
+
+    .contenido-principal{
+        flex-direction: row;
+        justify-content: space-between;
     }
 }
